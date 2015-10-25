@@ -4,13 +4,12 @@
 
 ** TARGET **
 
-The demo runs on an ST_NUCLEO_F103RB board.
+The demo runs on an Chinese Version of STM32F103C8 based board.
 
 ** The Demo **
 
-The demo flashes the board LED using a thread, by pressing the button located
-on the board the test procedure is activated with output on the serial port
-SD2 (USART2, mapped on USB virtual COM port).
+The demo flashes the board LED using a thread. It also shell interfaces via SD1 interface
+providing various commands to test the system
 
 ** Build Procedure **
 
